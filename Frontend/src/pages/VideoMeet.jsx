@@ -34,10 +34,8 @@ export default function VideoMeetComponent() {
 
     let [audioAvailable, setAudioAvailable] = useState(true);
 
-    let [video, setVideo] = useState([]);
-
-    let [audio, setAudio] = useState();
-
+    let [video, setVideo] = useState(true);
+    let [audio, setAudio] = useState(true);
     let [screen, setScreen] = useState();
 
     let [showModal, setModal] = useState(true);
